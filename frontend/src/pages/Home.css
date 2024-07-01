@@ -1,0 +1,53 @@
+/* Home.css */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 20rem;
+  margin-top: -20px; /* Adjust this value to move the table up or down */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  padding: 8px 16px; /* Ensure uniform padding for all buttons */
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  display: inline-block; /* Ensure buttons are displayed inline */
+}
+
+.btn.view {
+  background-color: #007bff;
+}
+
+.btn.edit {
+  background-color: #ffc107;
+  color: black; /* Ensure text color is readable */
+}
+
+.btn.delete {
+  background-color: #dc3545;
+}
